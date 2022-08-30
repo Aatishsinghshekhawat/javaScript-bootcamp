@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Nanum+Myeongjo&family=Roboto+Flex:opsz,wght@8..144,300;8..144,400&display=swap');
+.display{
+    display: flex;
+    font-family: 'Roboto Flex', sans-serif;
+    height: 100vh;
+    width: 80vh;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 2px 20px grey;
+}
+.left_side{
+    background-color: rgb(42, 120, 171);
+    color: white;
+    width: 40vh;
+    height: 100%;
+}
+img{
+    width: 24vh;
+        height: 24vh;
+        margin-left: 8vh;
+        border-radius: 50%;
+}
+.heading{
+    text-align: center;
+    font-size: 24px;
+}
+.links{
+    margin-left: 4vh;
+}
+.icons{
+    color: white;
+    text-decoration: none;
+    font-size: 2vh;
+}
+.skills{
+    text-decoration: none;
+    margin-left: 4vh;
+}
+.right_side{
+    width: 60vh;
+}
+.headlines{
+    margin-top: 7vh;
+        width: 34vh;
+        height: 11vh;
+        background-color: rgb(229, 246, 252);
+        margin-left: 4vh;
+        padding-left: 2vh;
+        
+}
+.graduation{
+    font-size: 34px;
+    margin-left: 4vh;
+    margin-top: -3vh;
+}
+.details{
+    margin-left: 6vh;
+    font-size: 2vh;
+}
+.logos{
+    margin-left: 6vh;
+        font-size: 3vh;
+}

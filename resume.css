@@ -1,0 +1,73 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+#header{
+   background-color:  rgb(220, 216, 205);
+    padding: 100px;
+
+}
+
+img{
+  border-radius: 50%; 
+    width: 274px;
+    height: 274px;
+    margin-left: 43%;
+    position: absolute;
+    top: 5%;
+}
+.name{
+     font-family: 'Cinzel', serif;;
+        text-align: center;
+         margin-top: 14vh; 
+         font-size: 4vh;
+         color: rgb(8, 31, 54);
+
+    }
+#info{
+    font-family: 'Cinzel',
+        serif;;
+    text-align: center;
+        margin-top: 14vh;
+        font-size: 4vh;
+        color: rgb(154, 107, 88);
+}
+.flex-container{
+    display: flex;
+}
+.profile {
+    font-family: 'Cinzel',
+            serif;
+        ;
+    margin-top: 14vh;
+    font-size: 3vh;
+    color: rgb(8, 31, 54);
+    margin-left: 11vh;
+}
+.touch{
+    background-color: rgb(220, 216, 205);
+        border-radius: 50px;
+        text-align: center;
+}
+.imp{
+font-family: 'Cinzel',
+        serif;
+    ;
+font-size: 3vh;
+color: rgb(154, 107, 88);
+
+}
+
+.succeed{
+    color: grey;
+}
+.para{
+    font-family: 'Cinzel',
+            serif;
+        ;
+    margin-top: 14vh;
+        font-size: 3vh;
+        color: rgb(8, 31, 54);
+        margin-left: 11vh;
+}
