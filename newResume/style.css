@@ -2,30 +2,35 @@
 .display{
     display: flex;
     font-family: 'Roboto Flex', sans-serif;
-    height: 100vh;
+    /* height: 100vh; */
+    margin-top: 0px;
     width: 80vh;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 2px 2px 20px grey;
+    
 }
 .left_side{
     background-color: rgb(42, 120, 171);
     color: white;
     width: 40vh;
+    margin-top: -8px;
     height: 100%;
 }
-img{
+.left_side img{
     width: 24vh;
         height: 24vh;
         margin-left: 8vh;
         border-radius: 50%;
+        margin-top: 23px;
 }
 .heading{
-    text-align: center;
+    
     font-size: 24px;
+    margin-left: 35px;
 }
 .links{
     margin-left: 4vh;
+    font-size: 14px;
 }
 .icons{
     color: white;
@@ -35,17 +40,21 @@ img{
 .skills{
     text-decoration: none;
     margin-left: 4vh;
+    font-size: 21px;
 }
 .right_side{
     width: 60vh;
+    margin-top: -8px;
+    background-color: white;
 }
 .headlines{
     margin-top: 7vh;
-        width: 34vh;
-        height: 11vh;
+        width: 53vh;
+        display: flex;
         background-color: rgb(229, 246, 252);
         margin-left: 4vh;
         padding-left: 2vh;
+        align-items: center;
         
 }
 .graduation{
@@ -56,8 +65,16 @@ img{
 .details{
     margin-left: 6vh;
     font-size: 2vh;
+    color: #666;
 }
 .logos{
     margin-left: 6vh;
-        font-size: 3vh;
+    font-size: 3vh;
+}
+.about-bootcamp {
+    font-size: 16px;
+        color: #666;
+}
+.part{
+    color: #666;
 }
