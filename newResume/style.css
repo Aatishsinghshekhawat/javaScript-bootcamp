@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Nanum+Myeongjo&family=Roboto+Flex:opsz,wght@8..144,300;8..144,400&display=swap');
+body{
+    background-color: black;
+}
 .display{
     display: flex;
     font-family: 'Roboto Flex', sans-serif;
-    /* height: 100vh; */
     margin-top: 0px;
     width: 80vh;
     margin-left: auto;
@@ -23,6 +25,7 @@
         border-radius: 50%;
         margin-top: 23px;
 }
+
 .heading{
     
     font-size: 24px;
@@ -30,21 +33,22 @@
 }
 .links{
     margin-left: 4vh;
-    font-size: 14px;
+    font-size: 12px;
 }
 .icons{
     color: white;
     text-decoration: none;
-    font-size: 2vh;
+    font-size: 12px;
 }
 .skills{
     text-decoration: none;
     margin-left: 4vh;
-    font-size: 21px;
+    font-size: 14px;
 }
 .right_side{
     width: 60vh;
-    margin-top: -8px;
+    height: 100%;
+    margin-top: -8vh;
     background-color: white;
 }
 .headlines{
@@ -57,11 +61,7 @@
         align-items: center;
         
 }
-.graduation{
-    font-size: 34px;
-    margin-left: 4vh;
-    margin-top: -3vh;
-}
+
 .details{
     margin-left: 6vh;
     font-size: 2vh;
@@ -69,7 +69,7 @@
 }
 .logos{
     margin-left: 6vh;
-    font-size: 3vh;
+    font-size: 2vh;
 }
 .about-bootcamp {
     font-size: 16px;
